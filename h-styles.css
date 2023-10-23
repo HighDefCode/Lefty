@@ -1,0 +1,78 @@
+/* font-family: 'Great Vibes', cursive;
+font-family: 'Imperial Script', cursive;
+font-family: 'Philosopher', sans-serif;
+font-family: 'Pinyon Script', cursive;
+font-family: 'Tangerine', cursive;
+font-family: 'Yellowtail', cursive; */
+
+body {
+    background-image: url("/lefty-img/ocean12.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: repeat;
+    margin: 0;
+  }
+
+header {
+    width: 100%;
+    height: 18%;
+    background-color: white;
+    border: 10px white;
+    /* border: 5px solid black  */
+}
+.container1 {
+    width: 90%;
+    margin: auto;
+    background-image: url(/lefty-img/lefty-dc-4.jpg);
+    /* background-color: rgb(26, 177, 167); */
+    padding: 0 1rem 0 1rem;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    margin-bottom: 0%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    z-index:-1;
+
+}
+.image1 {
+    background-image: url(/lefty-img/lefty-dc-3.png);
+    width: 100px;
+    height: 100px;
+    z-index: 3;
+}
+
+.image2 {
+    background-image: url(/lefty-img/lefty-dc-3.png);
+    width: 100px;
+    height: 100px;
+    z-index: 4;
+}
+
+.caption {
+    /* align-self: baseline;
+    justify-self: start; */
+}
+
+.header-text-1, .header-text-3 { 
+    font-family: 'Great Vibes', cursive;
+    /* font-family: 'Imperial Script', cursive; */
+    /* font-family: 'Philosopher', sans-serif; */
+    /* font-family: 'Pinyon Script', cursive; */
+    /* font-family: 'Tangerine', cursive; */
+    /* font-family: 'Yellowtail', cursive; */
+    color:#150336;
+    letter-spacing: 0.1em; 
+}
+.header-text-1 {
+    font-size: 6rem;
+    align-items: center;
+}
+.header-text-3 {
+    font-size: 3rem;
+    text-align: center;
+    word-spacing: .5rem;
+
+    margin: 1rem 0 0 0;
+}
